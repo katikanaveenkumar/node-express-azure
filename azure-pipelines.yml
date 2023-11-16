@@ -9,7 +9,7 @@ steps:
   inputs:
     versionSpec: '8.x'
 - script: |
-    apt install nodejs
+    sudo apt install nodejs
   displayName: 'Install Node.js'
 
 - script: |
